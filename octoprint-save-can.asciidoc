@@ -2,33 +2,33 @@
 
 == printer profile
 
-.general
+=== general
 name:: "Anet A8"
 identifier:: "_default"
 model:: Marlin
 
-.printbed&buildvolume
+=== printbed&buildvolume
 formfactor:: Rectangular
 heated bed:: true
 width:: 220
 height:: 240
 depth:: 220
 
-.axes
+=== axes
 X:: 1000 mm/min
 Y:: 1000 mm/min
 Z:: 500 mm/min
 E:: 25 mm/min
 
-.hotend
+=== hotend
 diameter:: 0.4 mm
 
 == temperatures (preheat)
-.ABS
+=== ABS
 extruder:: 210
 bed:: 100
 
-.PLA
+=== PLA
 extruder::200
 bed:: 60
 
